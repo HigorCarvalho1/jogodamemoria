@@ -77,7 +77,7 @@ export function jogo (){
                             
                         }
                      }
-                     setTimeout(planoDeFundo,3000)
+                     setTimeout(planoDeFundo, 2000)
                 }) 
             
         }
@@ -306,6 +306,7 @@ function shuffleArray(array, callback) {
         if(event.key === "Escape" || event.keyCode === 27){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
+            variaveis.music.currentTime = 110
             variaveis.music.play()
         }
     })
