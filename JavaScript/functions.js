@@ -17,8 +17,8 @@ export function events (){
     })
     variaveis.buttonMusic2.addEventListener('click', ()=>{
         variaveis.music.play()
-        buttonMusic2.classList.toggle('not')
-        buttonMusic.classList.toggle('not')
+        variaveis.buttonMusic2.classList.toggle('not')
+        variaveis.buttonMusic.classList.toggle('not')
     })
     variaveis.button2.addEventListener('click', ()=>{
         variaveis.buttonPressAudio.play()
