@@ -19,7 +19,6 @@ export const fundo = document.querySelector('.fundo')
 
 export const buttonPressAudio = new Audio('./audios/button.wav')
 export const music = new Audio('./audios/music.mp3')
-music.loop = true
 music.currentTime = 110
 // music.loop = true
 
