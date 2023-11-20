@@ -42,12 +42,12 @@ export function jogo (){
             variaveis.linha.addEventListener('click', (event) => {
                 contadorDeClicks++
                 if(contadorDeClicks == 1){
-                   variaveis.evento1.push(event.target.dataset.action)
-                   variaveis.fotoDeFundo.push(event.target.dataset.action)
-                    if(variaveis.evento1[0] == undefined){
+                   evento1.push(event.target.dataset.action)
+                   fotoDeFundo.push(event.target.dataset.action)
+                    if(evento1[0] == undefined){
                         contadorDeClicks = 0
-                        variaveis.evento1 = []
-                        variaveis.fotoDeFundo = []
+                        evento1 = []
+                        fotoDeFundo = []
                     }
                     }else if(contadorDeClicks == 2){
                        evento2.push(event.target.dataset.action)
@@ -103,21 +103,21 @@ export function eventosCartas(){
 function virarCarta1(){
     variaveis.int1.addEventListener('click', ()=>{
         variaveis.int1.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int1)
+        escondecarta.push(variaveis.int1)
         variaveis.buttonPressAudio.play()
     })
 }
 function virarCarta11(){
     variaveis.int11.addEventListener('click', ()=>{
         variaveis.int11.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int11)
+        escondecarta.push(variaveis.int11)
         variaveis.buttonPressAudio.play()
     })
 }
 function virarCarta2(){
     variaveis.int2.addEventListener('click', ()=>{
         variaveis.int2.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int2)
+        escondecarta.push(variaveis.int2)
         variaveis.buttonPressAudio.play()
         
     })
@@ -125,7 +125,7 @@ function virarCarta2(){
 function virarCarta22(){
     variaveis.int22.addEventListener('click', ()=>{
         variaveis.int22.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int22)
+        escondecarta.push(variaveis.int22)
         variaveis.buttonPressAudio.play()
         
     })
@@ -133,7 +133,7 @@ function virarCarta22(){
 function virarCarta3(){
     variaveis.int3.addEventListener('click', ()=>{
         variaveis.int3.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int3)
+        escondecarta.push(variaveis.int3)
         variaveis.buttonPressAudio.play()
         
     })
@@ -141,7 +141,7 @@ function virarCarta3(){
 function virarCarta33(){
     variaveis.int33.addEventListener('click', ()=>{
         variaveis.int33.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int33)
+        escondecarta.push(variaveis.int33)
         variaveis.buttonPressAudio.play()
         
     })
@@ -150,7 +150,7 @@ function virarCarta33(){
 function virarCarta4(){
     variaveis.int4.addEventListener('click', ()=>{
         variaveis.int4.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int4)
+        escondecarta.push(variaveis.int4)
         variaveis.buttonPressAudio.play()
        
     })
@@ -158,7 +158,7 @@ function virarCarta4(){
 function virarCarta44(){
     variaveis.int44.addEventListener('click', ()=>{
         variaveis.int44.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int44)
+        escondecarta.push(variaveis.int44)
         variaveis.buttonPressAudio.play()
         
     })
@@ -166,7 +166,7 @@ function virarCarta44(){
 function virarCarta5(){
     variaveis.int5.addEventListener('click', ()=>{
         variaveis.int5.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int5)
+        escondecarta.push(variaveis.int5)
         variaveis.buttonPressAudio.play()
        
     })
@@ -174,7 +174,7 @@ function virarCarta5(){
 function virarCarta55(){
     variaveis.int55.addEventListener('click', ()=>{
         variaveis.int55.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int55)
+        escondecarta.push(variaveis.int55)
         variaveis.buttonPressAudio.play()
         
     })
@@ -182,7 +182,7 @@ function virarCarta55(){
 function virarCarta6(){
     variaveis.int6.addEventListener('click', ()=>{
        variaveis.int6.classList.toggle('light')
-       variaveis.escondecarta.push(variaveis.int6)
+       escondecarta.push(variaveis.int6)
        variaveis.buttonPressAudio.play()
        
     })
@@ -190,7 +190,7 @@ function virarCarta6(){
 function virarCarta66(){
     variaveis.int66.addEventListener('click', ()=>{
         variaveis.int66.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int66)
+        escondecarta.push(variaveis.int66)
         variaveis.buttonPressAudio.play()
         
     })
@@ -198,7 +198,7 @@ function virarCarta66(){
 function virarCarta7(){
     variaveis.int7.addEventListener('click', ()=>{
         variaveis.int7.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int7)
+        escondecarta.push(variaveis.int7)
         variaveis.buttonPressAudio.play()
        
     })
@@ -206,15 +206,15 @@ function virarCarta7(){
 function virarCarta77(){
     variaveis.int77.addEventListener('click', ()=>{
         variaveis.int77.classList.toggle('light')
-        variaveis.escondecarta.push(variaveis.int77)
+        escondecarta.push(variaveis.int77)
         variaveis.buttonPressAudio.play()
         
     })
 }
 function escondendocarta(){
-    variaveis.escondecarta[0].classList.remove('light')
-    variaveis.escondecarta[1].classList.remove('light')
-    variaveis.escondecarta = []
+    escondecarta[0].classList.remove('light')
+    escondecarta[1].classList.remove('light')
+    escondecarta = []
 }
 export function recomeçar(){
 

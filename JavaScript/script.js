@@ -6,4 +6,5 @@ functions.recomeçar()
 functions.jogo()
 functions.hack()
 functions.events()
+functions.eventosCartas()
   
