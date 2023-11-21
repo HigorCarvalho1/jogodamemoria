@@ -122,21 +122,23 @@ button{
 
     transition: .3s;
     cursor: pointer;
+    transition: .2s;
 }
 
 button:hover{
     transform: scale(1.1);
 }
-/* .linha{
+.linha{
     display: flex;
     flex-direction: column;
     gap: 2.0rem;
     margin-top: 2.0rem;
-} */
+}
  #linha1{
     width: 100%;
     display: flex;
 }
+
 #linha2{
     width: 100%;
     display: flex;
@@ -147,15 +149,15 @@ button:hover{
     position: absolute;
     z-index: 2;
 }
-#int:hover{
-    transform: scale(1.2);
-}
 #int.light{
     animation: move .5s forwards;
 }
 #int:not(.light){
     animation: moves .5s forwards, border 5s linear alternate infinite;
 }
+
+
+
 
 @keyframes move{
     0%{
@@ -233,6 +235,18 @@ button:hover{
        };
     
 }
+@keyframes nenhum2{
+    0%{
+        
+        
+            transform: translateY(var(--startY));
+    }
+       100%{
+           
+       };
+    
+}
+
 .image h1{
     --startX: -50%;
     animation:nenhum 3s alternate infinite;
@@ -240,6 +254,13 @@ button:hover{
 main img{
     animation: border 5s linear  infinite;
 }
+main h1{
+    --startY:-300%;
+    animation: nenhum2 1s;
+}
+
+
+
 
  @media ((max-width: 1700px)){
     main h1{
@@ -271,6 +292,7 @@ main img{
             justify-content: center;
             align-items: center;
             margin-top: 3rem;
+            margin-left: 5rem;
         }
         main h1{
             margin-top: -18rem;

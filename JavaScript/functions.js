@@ -37,7 +37,7 @@ export function events (){
 }
 export function jogo (){
 
-    window.addEventListener('load', () => {
+   
     
             variaveis.linha.addEventListener('click', (event) => {
                 contadorDeClicks++
@@ -77,12 +77,13 @@ export function jogo (){
                             
                         }
                      }
+                     
                      setTimeout(planoDeFundo, 2000)
                 }) 
             
         }
-    )
-}
+    
+
 export function eventosCartas(){
     virarCarta1()
     virarCarta11()
@@ -244,13 +245,12 @@ export function recomeçar(){
        })
 }
 function planoDeFundo(){
-    
-    if(fotoDeFundo.length == 14){
-        variaveis.main.classList.add('not')
-        variaveis.fundo.classList.remove('not')
-        variaveis.music.currentTime = 110
-        variaveis.music.play()
-      }
+        if(fotoDeFundo.length == 14){
+            variaveis.main.classList.add('not')
+            variaveis.fundo.classList.remove('not')
+            variaveis.music.play()
+          }
+
     
 }
  export function inicio(){
@@ -306,7 +306,7 @@ function shuffleArray(array, callback) {
         if(event.key === "Escape" || event.keyCode === 27){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
-            variaveis.music.currentTime = 110
+            
             variaveis.music.play()
         }
     })
