@@ -298,13 +298,16 @@ main h1{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 4rem;
+            padding-top: 4rem;
+            padding-right: -2rem;
+            border: solid 1px red;
            
         }
         main h1{
             margin-top: -18rem;
-            font-size: 2rem;
+            font-size: 4rem;
             margin-left: -4rem;
+            filter: saturate(200%);
         }
         .linha{
             display: flex;
@@ -316,8 +319,8 @@ main h1{
             filter: saturate(200%);
         }
         main .linha img{
-            height: 8rem;
-            width: 5rem;
+            height: 10rem;
+            width: 6rem;
         }
         main footer button{
             height: 2rem;
