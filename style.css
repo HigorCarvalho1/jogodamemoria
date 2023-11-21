@@ -13,12 +13,20 @@ body{
     font-size: 1.6rem;
     height: 100vh;
     
-    background: url(./image/natal.png) no-repeat   ;
-    background-size: cover;
+    background: grey;
     
+}
+body.color{
+    background-color: red;
 }
 body *{
     font-family: 'Roboto', sans-serif;
+}
+.pagina{
+    height: 100vh;
+    background: url(./image/natal.png) no-repeat   ;
+    background-size: cover;
+
 }
 .not{
     display: none;
@@ -298,8 +306,8 @@ main h1{
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 4rem;
-            padding-right: -2rem;
+            padding-top: 5rem;
+            padding-right: -3rem;
             
            
         }

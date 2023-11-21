@@ -17,6 +17,7 @@ export const int77 = document.querySelector('.int77')
 export const main = document.querySelector('.main')
 export const fundo = document.querySelector('.fundo')
 export const optionHack = document.querySelector('.hack')
+export const body = document.querySelector("body")
 
 export const buttonPressAudio = new Audio('./audios/button.wav')
 export const music = new Audio('./audios/music.mp3')
