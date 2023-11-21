@@ -314,6 +314,7 @@ function shuffleArray(array, callback) {
         if(event.key === "Escape" || event.keyCode === 27){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
+            variaveis.pagina.classList.add('light')
             variaveis.music.play()
         }
     })
