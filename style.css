@@ -13,7 +13,7 @@ body{
     font-size: 1.6rem;
     height: 100vh;
     
-    background: url(./image/natal.png) no-repeat ;
+    background: url(./image/natal.png) no-repeat bottom center scroll;
     background-size: cover;
     
 }
@@ -25,7 +25,7 @@ body *{
 }
 .fundo{
     height: 100vh; 
-    background: url(./image/28943.png) no-repeat;
+    background: url(./image/28943.png) no-repeat  center scroll;
     background-size: cover;
     filter: saturate(120%);
 }
@@ -313,8 +313,8 @@ main h1{
             filter: saturate(200%);
         }
         main .linha img{
-            height: 7rem;
-            width: 4.5rem;
+            height: 5rem;
+            width: 3.5rem;
         }
         main button{
             height: 2rem;
