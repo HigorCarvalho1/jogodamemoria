@@ -13,11 +13,11 @@ body{
     font-size: 1.6rem;
     height: 100vh;
     
-    background: grey;
+    background: rgb(7, 124, 15);
     
 }
 body.color{
-    background-color: red;
+    background-color: rgb(231, 15, 15);
 }
 body *{
     font-family: 'Roboto', sans-serif;
