@@ -254,7 +254,6 @@ function planoDeFundo(){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
             variaveis.body.classList.add('color')
-            variaveis.music.currentTime = 110
             variaveis.music.play()
           }
 
@@ -313,7 +312,6 @@ function shuffleArray(array, callback) {
         if(event.key === "Escape" || event.keyCode === 27){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
-            variaveis.music.currentTime = 110
             variaveis.music.play()
         }
     })
