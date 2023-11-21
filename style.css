@@ -36,8 +36,6 @@ body *{
 }
 .fundo{
     height: 100vh; 
-    background: url(./image/28943.png) no-repeat ;
-    background-size: cover;
     filter: saturate(120%);
 }
 .image{
@@ -396,9 +394,6 @@ main h1{
         .fundo{
             margin-top: -8rem;
             margin-left: -5rem;
-            background: url(./image/28943.png) bottom  center scroll;
-            background-size: cover;
-            
         }
     
         .image button{

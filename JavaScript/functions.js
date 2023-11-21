@@ -252,6 +252,9 @@ export function recomeçar(){
 }
 function planoDeFundo(){
         if(fotoDeFundo.length == 14){
+            variaveis.fundo.style.backgroundImage = 'url(./image/28943.png)'
+            variaveis.fundo.style.backgroundRepeat = 'no-repeat'
+            variaveis.fundo.style.backgroundSize = 'cover'
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
             variaveis.body.classList.add('color')
@@ -312,8 +315,12 @@ function shuffleArray(array, callback) {
   export function hack (){
     document.addEventListener('keydown', (event)=>{
         if(event.key === "Escape" || event.keyCode === 27){
+            variaveis.fundo.style.backgroundImage = 'url(./image/28943.png)'
+            variaveis.fundo.style.backgroundRepeat = 'no-repeat'
+            variaveis.fundo.style.backgroundSize = 'cover'
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
+            variaveis.body.classList.add('color')
             variaveis.pagina.classList.add('light')
             variaveis.music.play()
         }
