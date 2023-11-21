@@ -221,27 +221,31 @@ export function recomeçar(){
 
     variaveis.button.addEventListener('click', ()=>{
         variaveis.buttonPressAudio.play()
-        variaveis.int1.classList.remove('light', 'opacit')
-        variaveis.int11.classList.remove('light', 'opacit')
-        variaveis.int2.classList.remove('light', 'opacit')
-        variaveis.int22.classList.remove('light', 'opacit')
-        variaveis.int3.classList.remove('light', 'opacit')
-        variaveis.int33.classList.remove('light', 'opacit')
-        variaveis.int4.classList.remove('light', 'opacit')
-        variaveis.int44.classList.remove('light', 'opacit')
-        variaveis.int5.classList.remove('light', 'opacit')
-        variaveis.int55.classList.remove('light', 'opacit')
-        variaveis.int6.classList.remove('light', 'opacit')
-        variaveis.int66.classList.remove('light', 'opacit')
-        variaveis.int7.classList.remove('light', 'opacit')
-        variaveis.int77.classList.remove('light', 'opacit')
+        variaveis.int1.classList.add('light')
+        variaveis.int11.classList.add('light')
+        variaveis.int2.classList.add('light')
+        variaveis.int22.classList.add('light')
+        variaveis.int3.classList.add('light')
+        variaveis.int33.classList.add('light')
+        variaveis.int4.classList.add('light')
+        variaveis.int44.classList.add('light')
+        variaveis.int5.classList.add('light')
+        variaveis.int55.classList.add('light')
+        variaveis.int6.classList.add('light')
+        variaveis.int66.classList.add('light')
+        variaveis.int7.classList.add('light')
+        variaveis.int77.classList.add('light')
         atribuindoImagens()
+
+        setTimeout(inicio, 2000)
 
         fotoDeFundo = []
         evento1 = []
         evento2 = []
         escondecarta = []
         contadorDeClicks = 0
+
+        
        })
 }
 function planoDeFundo(){
@@ -278,7 +282,7 @@ function shuffleArray(array, callback) {
 
         
         }
-        callback()
+        return callback()
   }
 
   
