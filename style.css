@@ -28,6 +28,9 @@ body *{
     background-size: cover;
 
 }
+.pagina.light{
+    display: none;
+}
 .not{
     display: none;
 }

@@ -19,6 +19,7 @@ export const fundo = document.querySelector('.fundo')
 export const optionHack = document.querySelector('.hack')
 export const body = document.querySelector("body")
 
+export const pagina = document.querySelector('.pagina') 
 export const buttonPressAudio = new Audio('./audios/button.wav')
 export const music = new Audio('./audios/music.mp3')
 music.loop = true

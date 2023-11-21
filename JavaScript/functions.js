@@ -25,6 +25,7 @@ export function events (){
             variaveis.main.classList.remove('not')
             variaveis.fundo.classList.add('not')
             variaveis.body.classList.remove('color')
+            variaveis.pagina.classList.remove('light')
             fotoDeFundo = []
             variaveis.music.pause()
     
@@ -254,6 +255,7 @@ function planoDeFundo(){
             variaveis.main.classList.add('not')
             variaveis.fundo.classList.remove('not')
             variaveis.body.classList.add('color')
+            variaveis.pagina.classList.add('light')
             variaveis.music.play()
           }
 
